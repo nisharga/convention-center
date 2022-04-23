@@ -1,0 +1,161 @@
+/* font google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800;900&display=swap');
+
+/* default css  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand, .navbar-nav li a{
+    color: #3E3E3E;
+}
+.styleBtn {
+    padding: 8px 24px;
+    background: #fff;
+    color: #3F87F5;
+    border: none;
+}
+.section-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: center;
+}
+
+
+
+/* momentSection */
+
+.momentSection h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 60px; 
+color: #0A0826;
+}
+.momentSection p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px; 
+color: #6C6C6C;
+}
+ 
+
+/* packageSection */
+
+.priceTitle .priceSubTitle{
+    color: #231D4F;
+}
+.priceTitle{font-size: 35px;}
+h3.priceSubTitle {
+    font-size: 26px;
+    line-height: 33px;
+}
+.packageSection p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   color: #848199;
+
+}
+
+.listItem ul {margin: 0;padding: 0;}
+
+.listItem li {list-style: none;
+    margin: 10px 0px;
+color: #848199;}
+
+.listItem i {margin-right: 12px;
+    background: #EDECF9;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 1.5;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #5243C2;
+}
+.chosePlan {
+    background: #f496d15c;
+    color: #3F87F5;
+    border: none;
+    width: 70%;
+    border-radius: 50px;
+}
+.activePrice{
+    background-image: url(img/bg_border.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    background-color: #3F87F5;
+    color: #fff;
+    padding-left: 20px;
+}
+.activePrice .chosePlan{
+    background: #fff;
+}
+.activePrice p{color: #fff;}
+.activePrice ul li{color: #fff;}
+
+
+
+/* ClintSection */
+
+.singleClint p{
+    font-size: 16px;
+    font-weight: 26px;
+    font-weight: 400;
+}
+.singleClint h6{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #0C1920;
+}
+.singleClint span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #747474;
+}
+.singleClint {
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .carousel-caption h1 {font-size: 23px;}
+
+.styleBtn {font-size: 16px;
+           padding: 3px 16px;
+          margin-bottom: 0px;}
+
+   .column-reverse-sm { 
+     flex-direction: column-reverse;
+  }
+  .imgageMoment {
+    margin-top: 30px;
+}
+.momentSection h2 {font-size: 26px;}
+.momentSection p {font-size: 16px;}
+
+  }
+  
+  @media only screen and (max-width: 576px) {
+ 
+  .imgageMoment {
+    margin-top: 30px;
+}
+
+  }
+
