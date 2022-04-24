@@ -95,13 +95,32 @@ color: #848199;}
     background-color: #3F87F5;
     color: #fff;
     padding-left: 20px;
+    transform: scale(1);
+    position: relative;
 }
 .activePrice .chosePlan{
     background: #fff;
 }
+.activePrice .chosePlan:hover{
+    background-color: #5243C2;
+}
 .activePrice p{color: #fff;}
 .activePrice ul li{color: #fff;}
-
+.singlePrice {
+	transform: scale(0.9);
+} 
+  .activePrice:after {
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    width: 50px;
+    height: 25px;
+    background: red;
+    z-index: 1;
+    content: "Hot";
+    padding: 0px 10px 5px;
+    border-radius: 50px;
+  }
 
 
 /* ClintSection */
