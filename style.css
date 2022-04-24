@@ -168,7 +168,7 @@ color: #848199;}
 
 
 
-
+/* Responsive */
 @media only screen and (max-width: 768px) {
 
     .carousel-caption h1 {font-size: 23px;}
@@ -193,6 +193,10 @@ color: #848199;}
   .imgageMoment {
     margin-top: 30px;
 }
-
+.section-title { 
+    font-size: 32px;  
+}
+.ClintSection .col-md-4.py-3 {
+	padding: 50px !important;
+}
   }
-
