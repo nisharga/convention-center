@@ -43,8 +43,22 @@ font-weight: 700;
 font-size: 16px;
 line-height: 28px; 
 color: #6C6C6C;
+} 
+.momentContent{
+    height: 100%;
 }
- 
+.toast i{margin-right: 10px;}
+
+.toast{position: relative;}
+.toast:before{
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background:#3F87F5;
+    content: "";
+}
 
 /* packageSection */
 

@@ -98,13 +98,27 @@
       <div class="col-md-6 imgageMoment d-flex align-items-center">
         <img src="img/wedding.png" class="img-fluid" alt="">
       </div>
-      <div class="col-md-6 d-flex align-content-center flex-wrap "> 
-        <h2>Every moment is Precious </h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <div class="col-md-6 "> 
+        <!-- toast --> 
+        <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-end align-items-center w-100"> 
+          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true"> 
+            <div class="toast-body d-flex justify-content-between"> 
+              <p><i class="fa-solid fa-gift"></i>
+                20% off on next booking</p> 
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button> 
+            </div> 
+          </div> 
+        </div> <!-- toast -->
+
+        <div class="momentContent d-flex align-content-center flex-wrap ">
+          <h2>Every moment is Precious </h2>
          
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> 
+       
         <a href="" class="btn btn-primary">
           Explore our album <i class="fa-solid fa-arrow-right"></i>
-        </a> 
+        </a>
+        </div> 
       </div>
     </div>
   </div>
@@ -243,7 +257,7 @@
 
 <div class="FrequentlyAskSection py-4">
   <div class="container">
-    <div class="row">
+    <div class="row column-reverse-sm">
         <h2 class="section-title mb-4">Frequently Asked Questions</h2>
       <div class="col-md-6 py-3 ">
 
